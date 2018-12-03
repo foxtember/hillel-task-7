@@ -1,0 +1,68 @@
+html{
+    background-color: #F0F2EA;
+}
+
+body{
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    max-width: 466px;
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.logo{
+    display: inline-block;
+    margin: 0 37px;
+}
+
+.rectangle-header{
+    width: 120px;
+    border-bottom: 2px solid #dbd8d8;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.title-header{
+    margin-top: 34px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: #636758;
+    letter-spacing: 1px;
+}
+
+.big{
+    max-width: 600px;
+    background: url("images/animals.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 137px 20px 163px 20px;
+
+}
+
+.title-section{
+    font-size: 36px;
+    margin-bottom: 17px;
+    letter-spacing: 2px;
+}
+
+.rectangle-main{
+    display: inline-block;
+    width: 100px;
+    border-bottom: 2px solid #dbd8d8;
+    margin-bottom: 24px;
+}
+
+.subtitle-section{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+
+
