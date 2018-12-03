@@ -2,14 +2,14 @@ html{
     min-width: 800px;
     background-color: #F0F2EA;
     padding: 0 100px;
+    font-family: Arial, sans-serif; 
 }
 
-body{
+.content-wrapper{
     max-width: 600px;
     background: white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
-    font-family: Arial, sans-serif;
 }
 
 .float-left{
@@ -76,9 +76,18 @@ body{
     letter-spacing: 2px;
 }
 
+.content-padding{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.content-margin{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 .best-articles{
     margin-top: 48px;
-    padding: 0 30px;
 }
 
 .best-articles-title{
@@ -142,4 +151,74 @@ body{
 
 .lake-bridge-bg{
     background-image: url("../images/lake-bridge.png");
+}
+
+footer{
+    margin-top: 36px;
+    border-top: 2px solid #F0F2EA;
+    padding: 40px 0;
+    font-size: 11px;
+}
+
+.footer-address h2{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.footer-address span{
+    display: block;
+    margin: 8px 0;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #6D7E44;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.social-link{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: right;
+    margin-left: 8px;
+    background-size: contain;
+    background-position: center;
+}
+
+.social-link-facebook{
+    margin: 0;
+    background-image: url("../images/facebook.png");
+}
+
+.social-link-twitter{
+    background-image: url("../images/twitter.png");
+}
+
+.social-link-tumblr{
+    background-image: url("../images/tumblr.png");
+}
+
+.social-link-rss-feed{
+    background-image: url("../images/rss.png");
+}
+
+.footer-nav-link{
+    display: block;
+    margin-top: 10px;
+}
+
+.unsubsribe-small{
+    display: block;
+    margin: 30px 0 35px 0;
+    font-size: 11px;
+    color: #333;
+    text-align: center;
+}
+
+.unsubsribe-small-link{
+    color: #333;
 }
