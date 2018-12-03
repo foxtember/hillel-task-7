@@ -37,7 +37,7 @@ header{
 
 .big{
     max-width: 600px;
-    background: url("images/animals.png");
+    background: url("../images/animals.png");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
@@ -63,6 +63,3 @@ header{
     font-size: 14px;
     letter-spacing: 2px;
 }
-
-
-
