@@ -1,5 +1,7 @@
 html{
+    min-width: 800px;
     background-color: #F0F2EA;
+    padding: 0 100px;
 }
 
 body{
@@ -8,58 +10,54 @@ body{
     font-family: Arial, sans-serif;
 }
 
-header{
-    max-width: 466px;
-    margin: 0 auto;
+.logo-header{
     padding-top: 40px;
     text-align: center;
 }
 
-.logo{
-    display: inline-block;
+.logo-header-image{
     margin: 0 37px;
 }
 
-.rectangle-header{
+.logo-header-rectangle{
     width: 120px;
-    border-bottom: 2px solid #dbd8d8;
+    height: 2px;
+    background: #dbd8d8;
     display: inline-block;
     margin-bottom: 50px;
 }
 
-.title-header{
+.logo-header-title{
     margin-top: 34px;
-    margin-bottom: 40px;
     font-size: 14px;
     color: #636758;
     letter-spacing: 1px;
 }
 
-.big{
-    max-width: 600px;
-    background: url("../images/animals.png");
-    background-repeat: no-repeat;
-    background-position: center;
+.hero{
+    margin-top: 40px;
+    background: no-repeat center/cover url("../images/animals.png");
     text-align: center;
     color: #FFFFFF;
     padding: 137px 20px 163px 20px;
 
 }
 
-.title-section{
+.hero-title{
     font-size: 36px;
-    margin-bottom: 17px;
     letter-spacing: 2px;
 }
 
-.rectangle-main{
+.hero-separator{
     display: inline-block;
+    margin-top: 17px;
     width: 100px;
-    border-bottom: 2px solid #dbd8d8;
-    margin-bottom: 24px;
+    height: 1px;
+    background: white;
 }
 
-.subtitle-section{
+.hero-subtitle{
+    margin-top: 24px;
     font-size: 14px;
     letter-spacing: 2px;
 }
